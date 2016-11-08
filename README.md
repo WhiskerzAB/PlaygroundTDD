@@ -10,5 +10,5 @@ Simple Playground file with logic and use case to illustrate how to use TDD and 
 ![License](https://img.shields.io/badge/license-MIT-grey.svg?style=flat)
 
 ## License
-Presentr is released under the MIT license.  
+PlaygroundTDD is released under the MIT license.  
 See LICENSE for details.
