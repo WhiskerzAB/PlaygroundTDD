@@ -1,0 +1,28 @@
+disabled_rules:
+  - missing_docs
+opt_in_rules:
+  - empty_count
+  - missing_docs
+included:
+excluded:
+force_cast: warning
+force_try:
+  severity: warning
+line_length: 150
+type_body_length:
+  - 300 # warning
+  - 400 # error
+file_length:
+  warning: 500
+  error: 1200
+type_name:
+  min_length: 2 # only warning
+  max_length: # warning and error
+    warning: 40
+    error: 50
+  excluded: iPhone # excluded via string
+variable_name:
+  min_length:
+    error: 1 # only error
+  excluded: # excluded via string array
+reporter: "json" # reporter type (xcode, json, csv, checkstyle)
