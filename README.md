@@ -19,7 +19,7 @@
 If your development workflow is based on *Playground*, sure you will save a huge amount of time by using our helper!
 <img src="example-shot.png">
 
-##  Author
+##  Authors
 * [Chris Scholly](https://github.com/chrisscholly)
 * [Gabriel Peart](http://github.com/gabrielPeart)
 
