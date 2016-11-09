@@ -20,11 +20,8 @@ If your development workflow is based on *Playground*, sure you will save a huge
 <img src="example-shot.png">
 
 ##  Author
-[Gabriel Peart](http://github.com/gabrielPeart) <br>
-
-## Main Contributors
-Logo design by [Chris Scholly](https://github.com/chrisscholly)<br>
-
+* [Chris Scholly](https://github.com/chrisscholly)
+* [Gabriel Peart](http://github.com/gabrielPeart)
 
 ## License
 PlaygroundTDD is released under the MIT license.  
