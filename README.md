@@ -2,6 +2,12 @@
 
 Simple Playground file with logic and use case to illustrate how to use TDD and Playground. I use it during my development process.
 
+## Build Status
+|**Branch**| **Status** |
+|---|---|
+|**master** |[![Build Status](https://travis-ci.org/gabrielPeart/PlaygroundTDD.svg?branch=master)](https://travis-ci.org/gabrielPeart/PlaygroundTDD)|
+|**develop** |[![Build Status](https://travis-ci.org/gabrielPeart/PlaygroundTDD.svg?branch=develop)](https://travis-ci.org/gabrielPeart/PlaygroundTDD)|
+
 ## Project Requirements
 ![Platforms](https://img.shields.io/badge/platform-iOS-green.svg?style=flat)
 [![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)]
