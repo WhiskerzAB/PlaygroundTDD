@@ -15,7 +15,7 @@
 |**develop** |[![Build Status](https://travis-ci.org/WhiskerzAB/PlaygroundTDD.svg?branch=develop)](https://travis-ci.org/WhiskerzAB/PlaygroundTDD)|
 
 ## About
-**PlaygroundTDD** enables you to use *TDD* directly on *Xcode Playground* during your development process.
+**PlaygroundTDD** enables you to use *TDD* directly on *Xcode Playground* during your development process.<br>
 If your development workflow is based on *Playground*, sure you will save a huge amount of time by using our helper!
 <img src="example-shot.png">
 
