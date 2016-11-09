@@ -1,0 +1,24 @@
+#
+# This codecov.yml is the default configuration for
+# all repositories on Codecov. You may adjust the settings
+# below in your own codecov.yml in your repository.
+#
+codecov:
+  notify:
+    require_ci_to_pass: yes
+
+  coverage:
+    ignore:
+    precision: 2
+    round: down
+    range: 70...100
+
+    status:
+      # Learn more at https://codecov.io/docs#yaml_default_commit_status
+      project: true
+      patch: true
+      changes: true
+
+  comment:
+    layout: "header, diff, changes, uncovered"
+    behavior: default  # update if exists else create new
