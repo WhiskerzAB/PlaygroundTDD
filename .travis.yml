@@ -1,0 +1,12 @@
+language: objective-c
+osx_image: xcode8
+
+install:
+  - ./install_swiftlint.sh
+
+script: 
+  - swiftlint
+  
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+  
