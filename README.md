@@ -1,4 +1,4 @@
-<img src="playground-tdd.png" width="700">
+<img src="playground-tdd.png">
 
 ![Platforms](https://img.shields.io/badge/platform-iOS-green.svg?style=flat)
 [![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)]
@@ -8,7 +8,10 @@
 [![codecov](https://codecov.io/gh/gabrielPeart/PlaygroundTDD/branch/master/graph/badge.svg)](https://codecov.io/gh/gabrielPeart/PlaygroundTDD)
 ![License](https://img.shields.io/badge/license-MIT-grey.svg?style=flat)
 
-Simple Playground file with logic and use case to illustrate how to use TDD and Playground. I use it during my development process.
+**PlaygroundTDD** enables you to use *TDD* directly on *Xcode Playground* during your development process.
+If your development workflow is based on *Playground*, sure you will save a huge amount of time by using our helper!
+
+<img src="example-shot.png">
 
 ## Build Status
 |**Branch**| **Status** |
