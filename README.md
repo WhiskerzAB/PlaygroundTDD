@@ -8,16 +8,16 @@
 [![codecov](https://codecov.io/gh/WhiskerzAB/PlaygroundTDD/branch/master/graph/badge.svg)](https://codecov.io/gh/WhiskerzAB/PlaygroundTDD)
 ![License](https://img.shields.io/badge/license-MIT-grey.svg?style=flat)
 
-**PlaygroundTDD** enables you to use *TDD* directly on *Xcode Playground* during your development process.
-If your development workflow is based on *Playground*, sure you will save a huge amount of time by using our helper!
-
-<img src="example-shot.png">
-
 ## Build Status
 |**Branch**| **Status** |
 |---|---|
 |**master** |[![Build Status](https://travis-ci.org/WhiskerzAB/PlaygroundTDD.svg?branch=master)](https://travis-ci.org/WhiskerzAB/PlaygroundTDD)|
 |**develop** |[![Build Status](https://travis-ci.org/WhiskerzAB/PlaygroundTDD.svg?branch=develop)](https://travis-ci.org/WhiskerzAB/PlaygroundTDD)|
+
+## About
+**PlaygroundTDD** enables you to use *TDD* directly on *Xcode Playground* during your development process.
+If your development workflow is based on *Playground*, sure you will save a huge amount of time by using our helper!
+<img src="example-shot.png">
 
 ##  Author
 [Gabriel Peart](http://github.com/gabrielPeart) <br>
