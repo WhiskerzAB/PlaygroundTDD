@@ -16,8 +16,8 @@ If your development workflow is based on *Playground*, sure you will save a huge
 ## Build Status
 |**Branch**| **Status** |
 |---|---|
-|**master** |[![Build Status](https://travis-ci.org/gabrielPeart/PlaygroundTDD.svg?branch=master)](https://travis-ci.org/gabrielPeart/PlaygroundTDD)|
-|**develop** |[![Build Status](https://travis-ci.org/gabrielPeart/PlaygroundTDD.svg?branch=develop)](https://travis-ci.org/gabrielPeart/PlaygroundTDD)|
+|**master** |[![Build Status](https://travis-ci.org/WhiskerzAB/PlaygroundTDD.svg?branch=master)](https://travis-ci.org/gabrielPeart/PlaygroundTDD)|
+|**develop** |[![Build Status](https://travis-ci.org/WhiskerzAB/PlaygroundTDD.svg?branch=develop)](https://travis-ci.org/gabrielPeart/PlaygroundTDD)|
 
 ##  Author
 [Gabriel Peart](http://github.com/gabrielPeart) <br>
