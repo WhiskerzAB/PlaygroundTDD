@@ -21,7 +21,7 @@ If your development workflow is based on *Playground*, sure you will save a huge
 
 ##  Authors
 * [Chris Scholly](https://github.com/chrisscholly)
-* [Gabriel Peart](http://github.com/gabrielPeart)
+* [Gabriel Peart](https://github.com/gabrielPeart)
 
 ## License
 PlaygroundTDD is released under the MIT license.  
