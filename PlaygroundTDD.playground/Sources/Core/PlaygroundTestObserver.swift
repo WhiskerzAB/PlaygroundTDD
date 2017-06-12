@@ -15,7 +15,8 @@ extension PlaygroundTestObserver: XCTestObservation {
     }
 
     public func testCase(_ testCase: XCTestCase, didFailWithDescription description: String, inFile filePath: String?, atLine lineNumber: UInt) {
-        let message = "Test failed on line \(lineNumber): \(testCase.name), \(description)"
+        let testCaseName = testCase.name ?? ""
+        let message = "Test failed on line \(lineNumber): \(testCaseName), \(description)"
         self.log(message: message)
     }
 
