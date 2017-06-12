@@ -3,6 +3,6 @@ import XCTest
 let playgroundObserver = PlaygroundTestObserver()
 XCTestObservationCenter.shared().addTestObserver(playgroundObserver)
 
-let stuffToTest = [CatTest.self]
+let sud = [FibonacciTest.self]
 
-TestRunner.run(tests: stuffToTest)
+TestRunner.run(tests: sud)
