@@ -10,7 +10,7 @@ import XCTest
 
 extension PlaygroundTestObserver: XCTestObservation {
     public func testCaseWillStart(_ testCase: XCTestCase) {
-        let message = "Running test suite \(testCase)"
+        let message = "Running test suite \(testCase)\n"
         logger.log(message: message)
     }
     
@@ -19,7 +19,7 @@ extension PlaygroundTestObserver: XCTestObservation {
                   inFile filePath: String?,
                   atLine lineNumber: Int) {
         let testCaseName = testCase.name
-        let message = "Test failed on line \(lineNumber): \(testCaseName), \(description)"
+        let message = "Test failed on line \(lineNumber): \(testCaseName), \(description)\n"
         logger.log(message: message)
     }
 
