@@ -11,13 +11,16 @@ import XCTest
 extension PlaygroundTestObserver: XCTestObservation {
     public func testCaseWillStart(_ testCase: XCTestCase) {
         let message = "Running test suite \(testCase)"
-        self.log(message: message)
+        logger.log(message: message)
     }
-
-    public func testCase(_ testCase: XCTestCase, didFailWithDescription description: String, inFile filePath: String?, atLine lineNumber: UInt) {
-        let testCaseName = testCase.name ?? ""
+    
+    public func testCase(_ testCase: XCTestCase,
+                  didFailWithDescription description: String,
+                  inFile filePath: String?,
+                  atLine lineNumber: Int) {
+        let testCaseName = testCase.name
         let message = "Test failed on line \(lineNumber): \(testCaseName), \(description)"
-        self.log(message: message)
+        logger.log(message: message)
     }
 
     public func testSuiteDidFinish(_ testSuite: XCTestSuite) {
@@ -27,8 +30,8 @@ extension PlaygroundTestObserver: XCTestObservation {
     }
 }
 
-public class PlaygroundTestObserver: NSObject, Loggable {
-    public var verbosity: Verbosity = .quiet
+public class PlaygroundTestObserver: NSObject {
+    let logger: Loggable = Logger(verbosity: .info)
 
     func log(testSuitRun: XCTestSuiteRun) {
         let numTests = testSuitRun.executionCount
@@ -39,21 +42,6 @@ public class PlaygroundTestObserver: NSObject, Loggable {
         let failureWarning = numFailures == 1 ? "failure" : "failures"
 
         let message = "Executed \(numTests) \(testWarning) in \(testDuration)s with \(numFailures) \(failureWarning)"
-        self.log(message: message)
-    }
-
-    public func log(message: String) {
-        switch self.verbosity {
-        case .normal:
-            print(message)
-        case .debug:
-            print("Debug: \(message)")
-        case .verbose:
-            print("Verbose: \(message)")
-        case .veryVerbose:
-            print("Verbose: \(message.uppercased())")
-        case .quiet:
-            return
-        }
+        logger.log(message: message)
     }
 }

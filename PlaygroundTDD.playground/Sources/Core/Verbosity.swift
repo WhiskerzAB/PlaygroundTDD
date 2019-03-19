@@ -7,9 +7,12 @@
 //
 
 public enum Verbosity {
-    case quiet
-    case normal
-    case verbose
-    case veryVerbose
     case debug
+    case info
+    case notice
+    case warning
+    case error
+    case critical
+    case alert
+    case emergency
 }

@@ -24,7 +24,7 @@ public struct TestRunner {
     }
 
     public static func run(testCase: XCTestCase.Type) {
-        let testSuite = testCase.defaultTestSuite()
+        let testSuite = testCase.defaultTestSuite
         testSuite.run()
     }
 }
